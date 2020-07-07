@@ -1,0 +1,18 @@
+nth=int(input("enter upto which number: "))
+f=0
+s=1
+count=0
+if nth<=0:
+    print("enter valid range.")
+elif nth==1:
+    print("fibonacci series: ",s)
+else:
+    print("fibonacci series: ")
+    print(f)
+    while nth>count:
+        print(s)
+        sums=f+s
+        f=s
+        s=sums
+        count+=1
+        
