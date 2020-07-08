@@ -1,0 +1,17 @@
+#assigning elements to diff lists
+lst1=[2,-45,6,8,-110]
+lst2=[3,69,-12]
+lst3=[5,-8,0]
+print("list1:",lst1," list2:",lst2," list3:",lst3)
+
+#accessing elements from a tuple
+tup=(3,'no',('hi','byee',5),9,'yes')
+print(tup[2][1])
+
+#deleting diff elements from dictionary
+dict1={"ab":1,"cd":{2,-3,4},"ef":-26,"gh":{"abc",-89}}
+print(dict1)
+dict1.popitem() #deletes last element
+print(dict1)
+dict1.pop("ab") #deletes element with key "ab"
+print(dict1)
